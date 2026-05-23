@@ -1,0 +1,66 @@
+{
+  "business": {
+    "name": "Bloom Aesthetics Clinic",
+    "tagline": "Your beauty, elevated.",
+    "contact": {
+      "whatsapp": "Available via WhatsApp",
+      "website": "Available via website"
+    }
+  },
+  "hours": {
+    "monday": "9:00 AM - 7:00 PM",
+    "tuesday": "9:00 AM - 7:00 PM",
+    "wednesday": "9:00 AM - 7:00 PM",
+    "thursday": "9:00 AM - 7:00 PM",
+    "friday": "9:00 AM - 7:00 PM",
+    "saturday": "9:00 AM - 7:00 PM",
+    "sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Botox",
+      "price_from": 200,
+      "currency": "GBP",
+      "description": "Anti-wrinkle injectable treatment to smooth fine lines and wrinkles.",
+      "consultation_required": true
+    },
+    {
+      "name": "Fillers",
+      "price_from": 250,
+      "currency": "GBP",
+      "description": "Dermal filler treatment for volume enhancement and contouring.",
+      "consultation_required": true
+    },
+    {
+      "name": "Consultations",
+      "price_from": 0,
+      "currency": "GBP",
+      "description": "Free initial consultation to discuss your aesthetic goals.",
+      "consultation_required": false
+    }
+  ],
+  "booking": {
+    "methods": ["WhatsApp", "Website"],
+    "cancellation_policy": "24-hour notice required for cancellations",
+    "deposit_required": false
+  },
+  "escalation_triggers": [
+    "complaint",
+    "medical_question",
+    "pricing_negotiation",
+    "unanswered_questions_limit",
+    "angry_customer",
+    "human_requested",
+    "out_of_scope"
+  ],
+  "faq_topics": [
+    "pricing",
+    "services",
+    "hours",
+    "booking",
+    "cancellation",
+    "consultation",
+    "location",
+    "treatments"
+  ]
+}

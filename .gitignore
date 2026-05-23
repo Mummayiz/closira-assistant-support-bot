@@ -1,0 +1,22 @@
+# Environment variables — never commit your API key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Generated session files
+transcripts/summary_*.md
+logs/escalation_logs.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
